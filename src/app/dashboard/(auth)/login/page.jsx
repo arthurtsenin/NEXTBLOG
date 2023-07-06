@@ -73,7 +73,7 @@ const Login = () => {
         <AiFillGithub />
         Login with GitHub
       </Button>
-      <Link href={`${LINKS.dashboard.url}/register`}>
+      <Link className={styles.link} href={`${LINKS.dashboard.url}/register`}>
         I don`t have an account yet
       </Link>
     </div>

@@ -35,3 +35,12 @@
 .input::placeholder {
   text-transform: uppercase;
 }
+
+.link {
+  transition: var(--transition);
+}
+
+.link:hover {
+  color: var(--primary-color);
+  transform: scale(1.05);
+}

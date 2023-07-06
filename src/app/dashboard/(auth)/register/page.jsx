@@ -67,7 +67,9 @@ const Register = () => {
         />
         <Button>Register</Button>
       </form>
-      <Link href="/dashboard/login">I have an account</Link>
+      <Link className={styles.link} href="/dashboard/login">
+        I have an account
+      </Link>
     </div>
   );
 };
