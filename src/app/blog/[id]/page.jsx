@@ -5,7 +5,7 @@ import { ButtonBack } from "@/components/ButtonBack/ButtonBack";
 
 async function getData(id) {
   const res = await fetch(
-    `https://next-blog-tsenin.vercel.app//api/posts/${id}`,
+    `https://next-blog-tsenin.vercel.app/api/posts/${id}`,
     {
       cache: "no-store",
     }
