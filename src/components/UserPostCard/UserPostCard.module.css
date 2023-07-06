@@ -1,0 +1,48 @@
+.post {
+  display: flex;
+  margin: 20px 0px;
+  padding: 10px;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  width: 100%;
+  margin: 0 15px;
+}
+
+.postTitle,
+.postDesc {
+  width: 100%;
+  word-break: normal;
+  text-align: justify;
+}
+
+.img {
+  object-fit: cover;
+  margin: 10px;
+  float: left;
+}
+
+.delete,
+.update {
+  cursor: pointer;
+  color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  transition: var(--transition);
+  align-self: flex-end;
+  float: right;
+}
+.delete,
+.update {
+  margin-left: 5px;
+}
+
+.delete:hover,
+.update:hover {
+  transform: scale(1.1);
+}

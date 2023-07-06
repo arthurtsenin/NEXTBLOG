@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #53c28b;
+  --primary-color-hover: #3b9267;
+
+  --secondary-color: rgb(161, 156, 156);
+
+  --dark-color: white;
+  --light-color: #111;
+
+  --bg-dark-color: #111;
+  --bg-light-color: white;
+
+  --fw-sm: 300;
+  --fw_md: 600;
+  --fw-lg: 900;
+
+  --fs-sm: 1rem;
+  --fs-md: 1.5rem;
+  --fs-lg: 2rem;
+  --fs-xLg: 3rem;
+
+  --transition: 1s all ease;
+  --shadow: 1px 1px 25px 1px var(--primary-color);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: var(--font-inter);
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--bg-dark-color);
+  color: var(--dark-color);
+  font-size: var(--fs-sm);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.theme {
+  transition: var(--transition);
+}
+
+.light {
+  background-color: var(--bg-light-color);
+  color: var(--light-color);
+}
+
+.dark {
+  background-color: var(--bg-dark-color);
+  color: var(--dark-color);
+}

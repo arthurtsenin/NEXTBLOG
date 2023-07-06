@@ -1,0 +1,16 @@
+.container {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: var(--dark-color);
+  transition: var(--transition);
+  font-size: var(--fs-md);
+}
+
+.container:hover {
+  background-color: var(--primary-color-hover);
+  transform: scale(1.1);
+}

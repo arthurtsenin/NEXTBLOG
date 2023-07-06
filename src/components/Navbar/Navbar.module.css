@@ -1,0 +1,33 @@
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: transform 500ms ease;
+}
+
+.link {
+  transition: transform 500ms ease;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.activelink {
+  color: #53c28b;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: transform 500ms ease;
+}
+
+.logout:hover {
+  transform: scale(1.05);
+ 
+}

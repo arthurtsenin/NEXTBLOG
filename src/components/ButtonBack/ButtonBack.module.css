@@ -1,0 +1,19 @@
+.back {
+  appearance: none;
+  border: none;
+  outline: none;
+  font-size: var(--fs-md);
+  color: var(--secondary-color);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-bottom: 20px;
+}
+
+.back:hover {
+  color: var(--dark-color);
+  transform: scale(1.05);
+}
